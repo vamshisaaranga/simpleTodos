@@ -1,0 +1,26 @@
+/* Write your CSS here */
+.todoContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.todoHeading {
+  font-family: roboto;
+  font-size: 20px;
+  color: #000000;
+  margin: 20px;
+}
+.buttonContainer {
+  margin-right: 30px;
+}
+.button {
+  background-color: #ffffff;
+  border-radius: 4px;
+  border-color: #ff0b37;
+  color: #ff0b37;
+  height: 30px;
+  width: 60px;
+  border-width: 1px;
+  cursor: pointer;
+}
